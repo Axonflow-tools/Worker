@@ -1,6 +1,25 @@
-@Worker_HostAddress = http://localhost:5097
+@Worker_HostAddress = http://localhost:5000
 
-GET {{Worker_HostAddress}}/weatherforecast/
+POST {{Worker_HostAddress}}/File/set-path
+Content-Type: application/json
+
+{
+  "Path": "/home/ayush/Desktop/Dataset/housing.csv"
+}
+
+###
+
+GET {{Worker_HostAddress}}/DataPreview/columns
+Accept: application/json
+
+###
+
+GET {{Worker_HostAddress}}/DataPreview/head
+Accept: application/json
+
+###
+
+GET {{Worker_HostAddress}}/DataPreview/tail
 Accept: application/json
 
 ###

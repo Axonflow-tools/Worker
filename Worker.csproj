@@ -8,6 +8,15 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2"/>
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.2.0" />
+        <PackageReference Include="Microsoft.Data.Analysis" Version="0.22.2" />
+        <PackageReference Include="Microsoft.ML" Version="4.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Interfaces\" />
+      <Folder Include="models\" />
+      <Folder Include="Records\" />
     </ItemGroup>
 
 </Project>
