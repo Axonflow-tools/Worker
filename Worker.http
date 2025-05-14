@@ -4,7 +4,7 @@ POST {{Worker_HostAddress}}/File/set-path
 Content-Type: application/json
 
 {
-  "Path": "/home/ayush/Desktop/Dataset/housing.csv"
+  "Path": "C:\Users\Win10\Downloads\housing.csv"
 }
 
 ###
